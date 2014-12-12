@@ -1,5 +1,5 @@
 module.exports = function(grunt) {
-	var generatedDocsPath = 'generatedDocsPath';
+	var generatedDocsPath = 'generated_docs';
 	
     grunt.initConfig({
 

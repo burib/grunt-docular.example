@@ -9,19 +9,14 @@ module.exports = function(grunt) {
             docular_webapp_target : generatedDocsPath,
             groups: [
                 {
-                    groupTitle: 'widgets', //Title used in the UI
-                    groupId: 'bb', //identifier and determines directory
-                    groupIcon: 'icon-book', //Icon to use for this group
-                    sections: [
+                    groupTitle: 'title', //Title used in the UI
+                    groupId: 'id', //identifier and determines directory
+                    groupIcon: 'beer', //Icon to use for this group
+                    groups: [
                         {
                             id: "module1",
                             title:"Module1",
-                            scripts: ['src/js/module1/*.js']
-                        },
-                        {
-                            id: "module2",
-                            title:"Module2",
-                            scripts: ['src/js/module2/*.js']
+                            scripts: grunt.file.expand(['src/**/*.js'])
                         }
                     ]
                 }

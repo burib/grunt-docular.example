@@ -12,4 +12,4 @@ grunt-docular example project
 	grunt
 ```
 3.	see generated docs in browser  
-http://localhost:8080/
+<a href="http://localhost:8080/" target="_blank">http://localhost:8080/</a>

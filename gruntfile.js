@@ -32,7 +32,9 @@ module.exports = function(grunt) {
     // Load the plugin that provides the "docular" tasks.
     grunt.loadNpmTasks('grunt-docular');
 
-    // Default task(s).
-    grunt.registerTask('default', ['docular']);
+    // Register task(s).
+    grunt.registerTask('generate', ['docular']);
+    grunt.registerTask('serve', ['docularserver']);
+    grunt.registerTask('default', ['generate', 'serve']);
 
 };

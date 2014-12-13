@@ -12,8 +12,7 @@
  * @name module1Service#Y
  * @methodOf module1Service
  * @description
- * returns 69
- * @return {Number} 69
+ * @returns {Number} 69
  */
 function Y() {
     return 69

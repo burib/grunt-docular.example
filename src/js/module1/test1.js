@@ -13,8 +13,7 @@ function service() {
      * @name module1Service#Y
      * @methodOf module1Service
      * @description
-     * returns 42
-     * @return {Number} 42
+     * @returns {Number} 42
      */
     function X() {
         return 42

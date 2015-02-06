@@ -10,7 +10,7 @@
 function service() {
     /**
      * @ngdoc method
-     * @name module1Service#Y
+     * @name module1Service#X
      * @methodOf module1Service
      * @description
      * @returns {Number} 42

@@ -1,4 +1,5 @@
 /**
+ * @module module2
  * @ngdoc service
  * @name module1Service
  * @description
@@ -9,9 +10,16 @@
 
 /**
  * @ngdoc method
- * @name module1Service#Y
+ * @name module2Service#Y
  * @methodOf module1Service
  * @description
+ *
+ ```json
+    {
+        a: 42,
+        b: 32
+    }
+    ```
  * @returns {Number} 69
  */
 function Y() {
